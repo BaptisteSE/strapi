@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tarifs",
+  "info": {
+    "singularName": "tarif",
+    "pluralName": "tarifs",
+    "displayName": "tarif"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nbPlayers": {
+      "type": "integer",
+      "required": true
+    },
+    "priceByPerson": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}
