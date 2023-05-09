@@ -33,6 +33,15 @@
       "relation": "oneToOne",
       "target": "api::room.room",
       "inversedBy": "session"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "En cours",
+        "Terminé",
+        "Annulé",
+        "En attente"
+      ]
     }
   }
 }
